@@ -1,6 +1,6 @@
 import {async, ComponentFixture, TestBed} from '@angular/core/testing';
 
-import {DashboardfComponent} from './dashboardf.component';
+import {DashboardfComponent} from './dashboard.component';
 
 describe('DashboardfComponent', () => {
   let component: DashboardfComponent;
