@@ -1,2 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 @import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+.mat-drawer-container {
+  background: #939393;
+}
+
+mat-card-actions {
+  margin-left: 24px !important;
+}

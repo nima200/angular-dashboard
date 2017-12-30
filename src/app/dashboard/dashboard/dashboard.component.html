@@ -1,3 +1,12 @@
-<p>
-  dashboardf works!
-</p>
+<mat-sidenav-container style="min-height: 100%;" fxFlex>
+  <mat-sidenav></mat-sidenav>
+  <mat-sidenav-content>
+    <mat-grid-list [cols]="cols | async">
+      <mat-grid-tile *ngFor="let card of cards"
+                     [colspan]="card.input.cols.value | async"
+                     [rowspan]="card.input.rows.value | async">
+        <app-dashboard-cards-spawner [card]="card"></app-dashboard-cards-spawner>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-sidenav-content>
+</mat-sidenav-container>

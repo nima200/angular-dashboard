@@ -7,6 +7,7 @@ import {NavbarComponent} from './navbar/navbar.component';
 import {RoutingModule} from './routing/routing.module';
 import {MatToolbarModule} from '@angular/material';
 import {HomeComponent} from './home/home.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {HomeComponent} from './home/home.component';
   imports: [
     /* Angular Material Modules */
     BrowserModule,
+    BrowserAnimationsModule,
     MatToolbarModule,
     RoutingModule,
   ],
