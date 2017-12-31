@@ -99,7 +99,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -129,7 +129,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -159,7 +159,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -189,7 +189,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -219,37 +219,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
-          },
-          cols: {
-            key: DashboardCard.metadata.COLS,
-            value: this.cols_big
-          },
-          rows: {
-            key: DashboardCard.metadata.ROWS,
-            value: this.cols_sml
-          },
-          color: {
-            key: DashboardCard.metadata.COLOR,
-            value: 'blue'
-          }
-        }, DashboardUsersComponent
-      )
-    );
-    this.cardsService.addCard(
-      new DashboardCard(
-        {
-          name: {
-            key: DashboardCard.metadata.NAME,
-            value: 'users'
-          },
-          routerLink: {
-            key: DashboardCard.metadata.ROUTERLINK,
-            value: '/dashboard/users'
-          },
-          iconClass: {
-            key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -279,7 +249,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -309,7 +279,37 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
+          },
+          cols: {
+            key: DashboardCard.metadata.COLS,
+            value: this.cols_big
+          },
+          rows: {
+            key: DashboardCard.metadata.ROWS,
+            value: this.cols_sml
+          },
+          color: {
+            key: DashboardCard.metadata.COLOR,
+            value: 'blue'
+          }
+        }, DashboardUsersComponent
+      )
+    );
+    this.cardsService.addCard(
+      new DashboardCard(
+        {
+          name: {
+            key: DashboardCard.metadata.NAME,
+            value: 'users'
+          },
+          routerLink: {
+            key: DashboardCard.metadata.ROUTERLINK,
+            value: '/dashboard/users'
+          },
+          iconClass: {
+            key: DashboardCard.metadata.ICONCLASS,
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -339,7 +339,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -369,7 +369,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -399,7 +399,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -429,7 +429,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,
@@ -459,7 +459,7 @@ export class DashboardComponent implements OnInit {
           },
           iconClass: {
             key: DashboardCard.metadata.ICONCLASS,
-            value: 'fa=users'
+            value: 'fa-users'
           },
           cols: {
             key: DashboardCard.metadata.COLS,

@@ -1,5 +1,14 @@
 <mat-sidenav-container style="min-height: 100%;" fxFlex>
-  <mat-sidenav></mat-sidenav>
+  <mat-sidenav [opened]="true" mode="side">
+    <mat-list>
+      <mat-list-item *ngFor="let card of cards">
+        <button mat-icon-button matTooltip="{{card.input.name.value}}" [matTooltipPosition]="'right'"
+                [matTooltipClass]="'dash-tooltip-class'">
+          <mat-icon style="margin: auto;" class="fa" ngClass="{{card.input.iconClass.value}}"></mat-icon>
+        </button>
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
   <mat-sidenav-content>
     <mat-grid-list [cols]="cols | async">
       <mat-grid-tile *ngFor="let card of cards"
