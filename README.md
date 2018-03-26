@@ -1,6 +1,7 @@
 # Angular Dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+## Tutorial Link
+To view the tutorial visit [Creating a Responsive Dashboard in Angular 5 From Scratch](https://medium.com/@nima_ap/creating-a-responsive-dashboard-in-angular-5-from-scratch-147f6a493d9e)
 
 ## Demo Route
 `http://localhost:4200/#/dashboard`
